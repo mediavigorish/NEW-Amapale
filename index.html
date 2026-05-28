@@ -1,0 +1,1126 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amapale Mineral Limited — Lesa Apale</title>
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet" />
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Vector Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              copper: {
+                50: '#fdf8f4',
+                100: '#fbece2',
+                200: '#f6d5bf',
+                300: '#efb392',
+                400: '#e5875e',
+                500: '#dc6538',
+                600: '#cd4a29',
+                700: '#ab3722',
+                800: '#8a2d21',
+                900: '#70271e',
+                950: '#3d110d',
+              },
+              emerald: {
+                50: '#f1fcf4',
+                100: '#def9e6',
+                200: '#bef2cd',
+                300: '#8be5a4',
+                400: '#52ce74',
+                500: '#2dae51',
+                600: '#208e3e',
+                700: '#1b7134',
+                800: '#1a592c',
+                900: '#164a27',
+                950: '#0b2914',
+              },
+              charcoal: {
+                50: '#f6f6f7',
+                100: '#ececed',
+                200: '#d5d6d8',
+                300: '#b1b4b9',
+                400: '#848991',
+                500: '#646972',
+                600: '#4e5159',
+                700: '#3f4148',
+                800: '#232427',
+                900: '#1a1b1d',
+                950: '#0f0f10',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+              display: ['Outfit', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth fade-in and high-quality utility gradients */
+      .bg-grid-pattern {
+        background-size: 40px 40px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+      }
+      .bg-grid-pattern-dark {
+        background-size: 40px 40px;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      }
+      .strata-line {
+        background: linear-gradient(90deg, #dc6538 0%, #1b7134 50%, #fbece2 100%);
+      }
+    </style>
+  </head>
+  <body class="bg-charcoal-50 text-charcoal-800 font-sans leading-relaxed tracking-normal overflow-x-hidden">
+
+    <!-- Top Informational Notification Ribbon -->
+    <div class="bg-gradient-to-r from-emerald-900 via-charcoal-900 to-copper-900 text-white text-[11px] md:text-xs py-2 px-4 shadow-sm">
+      <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-1 font-medium tracking-wider uppercase">
+        <div class="flex items-center gap-2">
+          <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>Responsible Resource Utilization & sustainable growth in Zambia</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <span>REG NO: 120251032883</span>
+          <span>|</span>
+          <a href="/cms.html" class="hover:text-copper-400 text-emerald-300 font-bold transition-colors inline-flex items-center gap-1 normal-case font-mono">
+            <i data-lucide="edit-3" class="w-3 h-3"></i> Open Studio CMS
+          </a>
+          <span class="hidden md:inline">|</span>
+          <span class="hidden md:inline">Zambian Owned & Operated</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sticky Main Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-charcoal-100 transition-all duration-300 shadow-sm navbar-scrolled">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          
+          <!-- Logo & Brand Identity -->
+          <a href="#hero" class="flex items-center gap-3 group">
+            <div class="relative flex items-center justify-center w-11 h-11 rounded-lg bg-gradient-to-br from-emerald-700 to-copper-600 shadow-md transform transition-transform group-hover:scale-105">
+              <!-- Custom Abstract 'A' Mining/Earth Vector mark -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3L2 17h10l3-5 5 5H12z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3l10 14H12" opacity="0.4" />
+              </svg>
+              <div class="absolute -bottom-1 -right-1 w-3 h-3 rounded-full bg-white border-2 border-emerald-700 flex items-center justify-center">
+                <span class="w-1.5 h-1.5 rounded-full bg-copper-500"></span>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-display font-bold text-lg leading-tight uppercase tracking-wider text-charcoal-900 group-hover:text-copper-600 transition-colors">
+                AMAPALE
+              </span>
+              <span class="text-[10px] uppercase font-semibold text-emerald-700 tracking-widest leading-none">
+                MINERAL LIMITED
+              </span>
+            </div>
+          </a>
+
+          <!-- Desktop Navigation -->
+          <nav class="hidden md:flex items-center gap-8">
+            <a href="#about" class="text-sm font-semibold tracking-wide text-charcoal-600 hover:text-emerald-700 transition-colors">About Us</a>
+            <a href="#mission" class="text-sm font-semibold tracking-wide text-charcoal-600 hover:text-emerald-700 transition-colors">Our Mission</a>
+            <a href="#sustainability" class="text-sm font-semibold tracking-wide text-charcoal-600 hover:text-emerald-700 transition-colors">Sustainable Growth</a>
+            <a href="#governance" class="text-sm font-semibold tracking-wide text-charcoal-600 hover:text-emerald-700 transition-colors">Transparency</a>
+            <a href="#contact" class="inline-flex items-center justify-center px-4 py-2.5 rounded-md text-xs font-bold uppercase tracking-wider bg-emerald-800 text-white hover:bg-copper-600 transition-all duration-300 shadow-md">
+              Contact Partner
+            </a>
+          </nav>
+
+          <!-- Mobile Menu Trigger -->
+          <button id="mobileMenuBtn" aria-label="Toggle Menu" class="md:hidden flex p-2 rounded-md text-charcoal-600 hover:text-emerald-800 focus:outline-none transition-colors">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown Navigation -->
+      <div id="mobileMenu" class="hidden md:hidden border-t border-charcoal-100 bg-white/98 shadow-lg transition-all duration-300 ease-in-out">
+        <div class="px-4 pt-4 pb-6 space-y-3">
+          <a href="#about" class="mobile-nav-link block px-3 py-2.5 rounded-md text-base font-semibold text-charcoal-700 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">About Us</a>
+          <a href="#mission" class="mobile-nav-link block px-3 py-2.5 rounded-md text-base font-semibold text-charcoal-700 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Our Mission</a>
+          <a href="#sustainability" class="mobile-nav-link block px-3 py-2.5 rounded-md text-base font-semibold text-charcoal-700 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Sustainable Growth</a>
+          <a href="#governance" class="mobile-nav-link block px-3 py-2.5 rounded-md text-base font-semibold text-charcoal-700 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Transparency</a>
+          <div class="pt-3 border-t border-charcoal-100">
+            <a href="#contact" class="mobile-nav-link flex items-center justify-center gap-2 px-4 py-3 rounded-md bg-emerald-800 hover:bg-copper-600 text-white text-center font-bold uppercase tracking-wide text-sm shadow transition-all">
+              <i data-lucide="phone" class="w-4 h-4"></i> Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Hero Section -->
+    <section id="hero" class="relative overflow-hidden bg-charcoal-900 text-white min-h-[90vh] md:min-h-screen flex items-center py-20 bg-grid-pattern-dark">
+      
+      <!-- Decorative Backdrop Strata Rings and Gradients -->
+      <div class="absolute inset-0 bg-gradient-to-b from-charcoal-950 via-charcoal-900 to-emerald-950/20 pointer-events-none"></div>
+      <div class="absolute top-1/4 -right-20 w-96 h-96 bg-copper-600/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute bottom-1/8 -left-20 w-[500px] h-[500px] bg-emerald-800/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <!-- Hero Content Container -->
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          
+          <!-- Text Segment -->
+          <div class="lg:col-span-7 flex flex-col space-y-8 text-center lg:text-left z-10">
+            
+            <!-- Ribbon Badge -->
+            <div class="inline-flex self-center lg:self-start items-center gap-2 px-3.5 py-1.5 rounded-full border border-copper-400/30 bg-copper-950/40 text-copper-300 text-xs font-bold uppercase tracking-widest leading-none">
+              <i data-lucide="sparkles" class="w-3.5 h-3.5 text-copper-400"></i>
+              <span>Your Community Partner</span>
+            </div>
+
+            <!-- Big Display Tagline -->
+            <div class="space-y-4">
+              <p class="font-serif italic text-copper-400 text-3xl md:text-5xl lg:text-5xl font-normal leading-tight tracking-wide">
+                "Lesa Apale"
+              </p>
+              <h1 class="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-none">
+                Harnessing Wealth.<br/>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-emerald-300 to-copper-400">
+                  Powering Opportunity.
+                </span>
+              </h1>
+            </div>
+
+            <!-- Core Statement -->
+            <p class="text-charcoal-300 text-base md:text-lg max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
+              We are committed to harnessing local mineral resources to boost job creation and promote sustainable growth in Zambia. Our focus lies in responsible operations which generate lasting benefits for local communities.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <a href="#about" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-md bg-gradient-to-r from-copper-500 to-copper-600 text-white font-bold uppercase text-xs tracking-widest shadow-xl transition-transform hover:-translate-y-0.5 hover:shadow-copper-900/40">
+                Explore Our Roots <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </a>
+              <a href="#contact" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-md border border-charcoal-600 bg-charcoal-800/80 hover:bg-charcoal-800 text-charcoal-200 hover:text-white font-bold uppercase text-xs tracking-widest shadow transitions-all">
+                Partner with Us <i data-lucide="mail" class="w-4 h-4"></i>
+              </a>
+            </div>
+
+            <!-- Fast Metrics Block -->
+            <div class="grid grid-cols-3 gap-4 pt-6 border-t border-charcoal-800 text-left max-w-lg mx-auto lg:mx-0">
+              <div>
+                <span class="block text-xl md:text-2xl font-display font-bold text-copper-400">Oct 2025</span>
+                <span class="block text-[10px] md:text-xs text-charcoal-400 uppercase font-semibold tracking-wider">Established</span>
+              </div>
+              <div class="border-l border-charcoal-800 pl-4">
+                <span class="block text-xl md:text-2xl font-display font-bold text-emerald-400">Lusaka</span>
+                <span class="block text-[10px] md:text-xs text-charcoal-400 uppercase font-semibold tracking-wider">Base Office</span>
+              </div>
+              <div class="border-l border-charcoal-800 pl-4">
+                <span class="block text-xl md:text-2xl font-display font-bold text-white">100%</span>
+                <span class="block text-[10px] md:text-xs text-charcoal-400 uppercase font-semibold tracking-wider">Zambian Focus</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Graphic Card / Abstract Mineral Deposit Visual Segment -->
+          <div class="lg:col-span-5 relative z-10 w-full max-w-md mx-auto">
+            
+            <div class="relative bg-gradient-to-br from-charcoal-850 to-charcoal-900 border border-charcoal-800/80 p-6 md:p-8 rounded-2xl shadow-2xl relative overflow-hidden group">
+              
+              <!-- Subtle top copper/emerald bar -->
+              <div class="absolute top-0 inset-x-0 h-1.5 strata-line"></div>
+              
+              <div class="flex justify-between items-start mb-6">
+                <div class="p-2 rounded-lg bg-emerald-950/50 border border-emerald-500/20 text-emerald-400">
+                  <i data-lucide="anvil" class="w-6 h-6"></i>
+                </div>
+                <div class="text-right">
+                  <span class="text-[10px] font-mono uppercase tracking-widest text-charcoal-400 block">Certificate</span>
+                  <span class="text-xs font-bold text-copper-300">REG# 120251032883</span>
+                </div>
+              </div>
+
+              <div class="space-y-4 mb-6">
+                <h3 class="font-display font-bold text-lg text-white">Responsible Minerals Commitment</h3>
+                <p class="text-xs text-charcoal-400 leading-relaxed">
+                  Focusing on the responsible and community-centric use of local mineral resources. We uplift Zambian communities with transparent, reliable engagement models.
+                </p>
+              </div>
+
+              <!-- Graphic elements displaying copper strata & earth core -->
+              <div class="relative h-24 rounded-lg bg-charcoal-950 flex items-center justify-center overflow-hidden border border-charcoal-800">
+                <div class="absolute inset-0 bg-gradient-to-r from-copper-900/30 to-emerald-900/30"></div>
+                <!-- Custom layered geometric graphic representation of underground minerals -->
+                <svg class="w-full h-full opacity-65" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <!-- Underground layers -->
+                  <path d="M0 40 Q 100 20, 200 60 T 400 30 L 400 100 L 0 100 Z" fill="url(#clay-layer)" />
+                  <path d="M0 60 Q 150 40, 250 80 T 400 50 L 400 100 L 0 100 Z" fill="url(#copper-layer)" />
+                  <!-- Highlights / Points -->
+                  <circle cx="120" cy="55" r="4" fill="#f59e0b" class="animate-pulse" />
+                  <circle cx="280" cy="75" r="5" fill="#10b981" class="animate-pulse" />
+                  <circle cx="340" cy="45" r="3.5" fill="#e5875e" />
+                  <!-- Grid -->
+                  <line x1="100" y1="0" x2="100" y2="100" stroke="rgba(255,255,255,0.05)" />
+                  <line x1="200" y1="0" x2="200" y2="100" stroke="rgba(255,255,255,0.05)" />
+                  <line x1="300" y1="0" x2="300" y2="100" stroke="rgba(255,255,255,0.05)" />
+                  <!-- Definitions -->
+                  <defs>
+                    <linearGradient id="clay-layer" x1="0" y1="0" x2="400" y2="100">
+                      <stop offset="0%" stop-color="#14532d" />
+                      <stop offset="100%" stop-color="#064e3b" />
+                    </linearGradient>
+                    <linearGradient id="copper-layer" x1="0" y1="0" x2="400" y2="100">
+                      <stop offset="0%" stop-color="#70271e" />
+                      <stop offset="100%" stop-color="#ab3722" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="absolute inset-x-3 bottom-2 flex justify-between text-[9px] font-mono tracking-wider text-charcoal-400">
+                  <span>COPPER STRATA DETECTED</span>
+                  <span>98.6% COPPER / EMERALD DEPOSITS</span>
+                </div>
+              </div>
+
+              <div class="mt-6 flex items-center justify-between text-xs text-charcoal-300 pt-5 border-t border-charcoal-800">
+                <div class="flex items-center gap-1.5">
+                  <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i>
+                  <span>Sustainable Methods</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                  <i data-lucide="users" class="w-4 h-4 text-copper-400"></i>
+                  <span>Community Benefits</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Company History & Core Roots (About) -->
+    <section id="about" class="py-24 bg-white bg-grid-pattern relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          
+          <!-- Image/Visual Collage Box representing community & land -->
+          <div class="relative space-y-4">
+            
+            <!-- Corner Accents -->
+            <div class="absolute -top-4 -left-4 w-12 h-12 border-t-2 border-l-2 border-emerald-700/60 rounded-tl-lg pointer-events-none"></div>
+            <div class="absolute -bottom-4 -right-4 w-12 h-12 border-b-2 border-r-2 border-copper-500/60 rounded-br-lg pointer-events-none"></div>
+            
+            <!-- Premium Image Feature: Zambian Engineers & Land -->
+            <div class="relative rounded-xl overflow-hidden shadow-xl h-64 group bg-charcoal-900 border border-charcoal-800">
+              <img src="/src/assets/images/zambian_engineers_1779960876811.png" alt="Amapale Sustainable Miners and Engineers" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-5">
+                <span class="text-xs uppercase font-extrabold tracking-widest text-emerald-400">Our Onsite Professional Team</span>
+                <p class="text-white font-display font-medium text-base mt-0.5">Zambian Mineral Stewardship & Expertise</p>
+              </div>
+            </div>
+
+            <!-- Graphic Card 1: Main Roots -->
+            <div class="bg-gradient-to-br from-charcoal-900 to-emerald-950 p-6 rounded-xl shadow-lg text-white">
+              <span class="text-xs uppercase font-bold tracking-widest text-emerald-400">Our Launch</span>
+              <h3 class="font-display font-bold text-2xl mt-1 mb-3 text-white">Established October 23, 2025</h3>
+              <p class="text-charcoal-300 text-xs sm:text-sm leading-relaxed mb-4 font-light">
+                Amapale Mineral Limited was chartered on October 23, 2025 in Lusaka, Zambia. Built on the principles of equitable community development, our operations emphasize local mineral stewardship.
+              </p>
+              
+              <!-- Location details -->
+              <div class="flex items-start gap-3 p-3 rounded bg-white/5 border border-white/10">
+                <i data-lucide="map-pin" class="w-4 h-4 text-copper-400 flex-shrink-0 mt-0.5"></i>
+                <div class="text-[11px] text-charcoal-200">
+                  <span class="font-bold text-white block mb-0.5">Central Operations HQ</span>
+                  <span>Plot No. 12 William Burton Road, Chilekwa Mwamba Road, Longacers, Lusaka, Zambia.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Graphic Card 2: Strategic Pillars -->
+            <div class="grid grid-cols-2 gap-4">
+              <div class="bg-emerald-50 border border-emerald-100 p-5 rounded-lg flex flex-col justify-between">
+                <i data-lucide="briefcase" class="w-6 h-6 text-emerald-700 mb-4"></i>
+                <div>
+                  <h4 class="font-bold text-charcoal-900 text-sm">Job Creation</h4>
+                  <p class="text-xs text-charcoal-600 mt-1">Nurturing local talent for mining operations.</p>
+                </div>
+              </div>
+              <div class="bg-copper-50 border border-copper-100 p-5 rounded-lg flex flex-col justify-between">
+                <i data-lucide="growth" class="w-6 h-6 text-copper-700 mb-4">
+                  <!-- Customized icon behavior for growth / trending-up -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
+                </i>
+                <div>
+                  <h4 class="font-bold text-charcoal-900 text-sm">Sustainable Growth</h4>
+                  <p class="text-xs text-charcoal-600 mt-1">Fostering lasting community progress.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Narrative Section -->
+          <div class="flex flex-col space-y-8">
+            <div class="space-y-3">
+              <span class="text-xs uppercase font-bold tracking-widest text-emerald-700 block">Who We Are</span>
+              <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-charcoal-900 leading-tight">
+                Dedicated to Fostering Economic Progress in Zambia
+              </h2>
+              <div class="w-16 h-1 bg-gradient-to-r from-emerald-600 to-copper-500 rounded"></div>
+            </div>
+
+            <p class="text-charcoal-600 leading-relaxed font-light">
+              Amapale Mineral Limited operates directly within Lusaka, Zambia, with an unwavering focus on the responsible use of local mineral resources. We strongly believe that Zambia's minerals should be the bedrock of security and progress for local communities.
+            </p>
+
+            <div class="space-y-4">
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800">
+                  <i data-lucide="layers" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-display font-bold text-charcoal-900 text-base">Harnessing Local Wealth</h4>
+                  <p class="text-charcoal-600 text-sm font-light mt-1">
+                    We source, extract, and convert mineral wealth locally, securing domestic economic multiplier benefits and building localized industries.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-copper-100 flex items-center justify-center text-copper-800">
+                  <i data-lucide="fingerprint" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-display font-bold text-charcoal-900 text-base">Ethical & Custom Engagement</h4>
+                  <p class="text-charcoal-600 text-sm font-light mt-1">
+                    From civic leadership to local builders, our actions are tied directly to transparent dialogue, mutual ownership, and ethical extraction policies.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <p class="text-sm italic text-charcoal-500 bg-charcoal-50 p-4 border-l-4 border-emerald-700 rounded-r-md">
+              "Amapale represents a new vision of mining in Africa: one where sustainability is not an afterthought, but the literal starting cornerstone of our business plan."
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Breakout Inspirational Quote Section (Mission focus) -->
+    <section id="mission" class="relative py-28 bg-gradient-to-br from-emerald-950 via-emerald-900 to-charcoal-950 overflow-hidden text-white bg-grid-pattern-dark">
+      
+      <!-- Decorative Backdrop circles -->
+      <div class="absolute inset-0 bg-black/10"></div>
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-copper-500/5 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
+        
+        <!-- Large visual quote icon indicator -->
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-800/60 border border-emerald-700 text-copper-300 mb-8 shadow-inner">
+          <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+          </svg>
+        </div>
+
+        <!-- Big, beautiful blockquote -->
+        <blockquote class="space-y-6">
+          <p class="font-serif italic text-2xl sm:text-3xl lg:text-4xl text-emerald-100 font-normal leading-relaxed text-center">
+            "Blessings for people creating opportunities, jobs, and lasting benefits for local communities."
+          </p>
+          
+          <footer class="flex flex-col items-center justify-center space-y-2 mt-8">
+            <div class="h-0.5 w-12 bg-copper-400"></div>
+            <cite class="font-display font-bold uppercase tracking-widest text-copper-300 text-xs sm:text-sm">
+              The Sovereign Amapale Creed
+            </cite>
+            <span class="text-charcoal-400 text-xs tracking-wider">Amapale Mineral Limited — Your Community Partner</span>
+          </footer>
+        </blockquote>
+
+      </div>
+    </section>
+
+    <!-- Interactive Community Integration Hub (Sustainable Growth) -->
+    <section id="sustainability" class="py-24 bg-charcoal-100 flex items-center relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <span class="text-xs uppercase font-bold tracking-widest text-copper-600 block">Empowerment Framework</span>
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-charcoal-900 tracking-tight">
+            How Amapale Reinvests in Zambian Communities
+          </h2>
+          <p class="text-charcoal-600 text-sm sm:text-base font-light">
+            Our strategic core is balanced upon three major pillars designed to transition mineral revenues directly into local infrastructural improvements and community benefits.
+          </p>
+          <div class="w-16 h-1 bg-gradient-to-r from-copper-500 to-emerald-600 mx-auto rounded"></div>
+        </div>
+
+        <!-- Tab Selection Navigation -->
+        <div class="flex justify-center mb-10">
+          <div class="inline-flex bg-white p-1 rounded-xl shadow-sm border border-charcoal-200 gap-1 overflow-x-auto max-w-full">
+            <button id="tabButton1" onclick="switchMainTab(1)" class="tab-btn px-4 sm:px-6 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all duration-300 whitespace-nowrap bg-emerald-800 text-white shadow">
+              Job Creation
+            </button>
+            <button id="tabButton2" onclick="switchMainTab(2)" class="tab-btn px-4 sm:px-6 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all duration-300 whitespace-nowrap text-charcoal-600 hover:text-charcoal-900 hover:bg-charcoal-50">
+              Responsible Sourcing
+            </button>
+            <button id="tabButton3" onclick="switchMainTab(3)" class="tab-btn px-4 sm:px-6 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all duration-300 whitespace-nowrap text-charcoal-600 hover:text-charcoal-900 hover:bg-charcoal-50">
+              Community Progress
+            </button>
+          </div>
+        </div>
+
+        <!-- Tab Panels Container -->
+        <div class="relative bg-white rounded-2xl shadow-md border border-charcoal-200/60 p-6 md:p-10 min-h-[300px] overflow-hidden">
+          
+          <!-- Tab 1: Job Creation -->
+          <div id="tabPanel1" class="tab-panel transition-all duration-300 opacity-100 block">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+              <div class="space-y-6">
+                <div class="inline-flex p-3 rounded-lg bg-emerald-100 text-emerald-800">
+                  <i data-lucide="award" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-display font-bold text-2xl text-charcoal-900">Uplifting Citizens Through Local Labor</h3>
+                <p class="text-charcoal-600 text-sm leading-relaxed font-light">
+                  Amapale Mineral Limited implements a **Zambia-First local hiring initiative**. By ensuring that over 90% of our onsite workforces are sourced within local communities, we provide primary household income and upgrade native skill competencies.
+                </p>
+                <ul class="space-y-3 text-sm text-charcoal-600">
+                  <li class="flex items-center gap-2">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0"></i>
+                    <span>Primary family livelihood security & local skills training</span>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0"></i>
+                    <span>Sustainable youth and vocational development integrations</span>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0"></i>
+                    <span>Fair living wages, health support, and active safety guarantees</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="space-y-4">
+                <div class="bg-gradient-to-br from-emerald-50 to-emerald-100/40 p-6 rounded-xl border border-emerald-100 flex flex-col justify-center space-y-4 shadow-sm">
+                  <span class="text-xs uppercase font-extrabold tracking-widest text-emerald-800">Operational Target</span>
+                  <div class="flex items-baseline gap-2">
+                    <span class="text-4xl sm:text-5xl font-display font-extrabold text-emerald-950">350+</span>
+                    <span class="text-charcoal-600 text-xs sm:text-sm font-medium">Sustainable jobs created by 2027</span>
+                  </div>
+                  <p class="text-[11px] text-charcoal-500 leading-relaxed font-light border-t border-emerald-200/40 pt-3">
+                    “Creating sustainable employment within our operational areas in Lusaka ensures that gains remain in Zambia.”
+                  </p>
+                </div>
+                <!-- Interactive Action Photo -->
+                <div class="relative h-48 rounded-xl overflow-hidden shadow-md group border border-charcoal-200/80">
+                  <img src="/src/assets/images/community_meeting_1779960901126.png" alt="Zambian youth and community forum" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-4">
+                    <span class="text-xs font-bold text-white uppercase tracking-wider">Stakeholder Consultation Forum, Lusaka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 2: Responsible Sourcing -->
+          <div id="tabPanel2" class="tab-panel transition-all duration-300 opacity-0 hidden">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+              <div class="space-y-6">
+                <div class="inline-flex p-3 rounded-lg bg-copper-100 text-copper-800">
+                  <i data-lucide="shield-check" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-display font-bold text-2xl text-charcoal-900">Responsible Mineral Extraction</h3>
+                <p class="text-charcoal-600 text-sm leading-relaxed font-light">
+                  Our raw materials are processed through strictly audited methods that minimize negative atmospheric footprint. We work actively alongside local watchdogs to demonstrate that heavy mining activities and environmental preservation can coexist hand-in-hand.
+                </p>
+                <ul class="space-y-3 text-sm text-charcoal-600">
+                  <li class="flex items-center gap-2">
+                    <i data-lucide="check" class="w-4 h-4 text-copper-600 flex-shrink-0"></i>
+                    <span>Re-vegetation of mining plots and strict water management plans</span>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i data-lucide="check" class="w-4 h-4 text-copper-600 flex-shrink-0"></i>
+                    <span>Traceable chain-of-custody reporting for mineral customers</span>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i data-lucide="check" class="w-4 h-4 text-copper-600 flex-shrink-0"></i>
+                    <span>Adherence to zero-child-labor policies on all supply networks</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="space-y-4">
+                <div class="bg-gradient-to-br from-copper-50 to-copper-100/40 p-6 rounded-xl border border-copper-100 flex flex-col justify-center space-y-4 shadow-sm">
+                  <span class="text-xs uppercase font-extrabold tracking-widest text-copper-800">Ecological Standards</span>
+                  <div class="flex items-baseline gap-2">
+                    <span class="text-4xl sm:text-5xl font-display font-extrabold text-copper-950">100%</span>
+                    <span class="text-charcoal-600 text-xs sm:text-sm font-medium">Traceable mineral products</span>
+                  </div>
+                  <p class="text-[11px] text-charcoal-500 leading-relaxed font-light border-t border-copper-200/40 pt-3">
+                    “We hold raw extraction contracts strictly to ethical standards. Our minerals represent national hope.”
+                  </p>
+                </div>
+                <!-- Eco Restoration Photo -->
+                <div class="relative h-48 rounded-xl overflow-hidden shadow-md group border border-charcoal-200/80">
+                  <img src="/src/assets/images/sustainable_land_1779960941515.png" alt="Reclaimed and restored copper soils" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-4">
+                    <span class="text-xs font-bold text-white uppercase tracking-wider">Reclaimed & Restored Soils, Zambia</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 3: Community Progress -->
+          <div id="tabPanel3" class="tab-panel transition-all duration-300 opacity-0 hidden">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+              <div class="space-y-6">
+                <div class="inline-flex p-3 rounded-lg bg-emerald-100 text-emerald-800">
+                  <i data-lucide="sparkles" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-display font-bold text-2xl text-charcoal-900">Uplifting Communities through Reinvestment</h3>
+                <p class="text-charcoal-600 text-sm leading-relaxed font-light">
+                  A portion of all Amapale revenue goes directly to high-impact community-nominated capital programs, covering local schools, modern medical outreach clinics, and clean water access channels.
+                </p>
+                <ul class="space-y-3 text-sm text-charcoal-600">
+                  <li class="flex items-center gap-2">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0"></i>
+                    <span>Building schools and funding primary school scholarships</span>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0"></i>
+                    <span>Deploying medical diagnostics and basic supply runs for remote families</span>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0"></i>
+                    <span>Clean sanitary pipelines and public water boreholes in operation zones</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="space-y-4">
+                <div class="bg-gradient-to-br from-emerald-50 to-emerald-100/40 p-6 rounded-xl border border-emerald-100 flex flex-col justify-center space-y-4 shadow-sm">
+                  <span class="text-xs uppercase font-extrabold tracking-widest text-emerald-800">Community Outreach</span>
+                  <div class="flex items-baseline gap-2">
+                    <span class="text-4xl sm:text-5xl font-display font-extrabold text-emerald-950">30%</span>
+                    <span class="text-charcoal-600 text-xs sm:text-sm font-medium">Revenue earmarked for community growth</span>
+                  </div>
+                  <p class="text-[11px] text-charcoal-500 leading-relaxed font-light border-t border-emerald-200/60 pt-3">
+                    “Our duty is to ensure surrounding residential locations thrive alongside our corporate success.”
+                  </p>
+                </div>
+                <!-- Primary Education Photo -->
+                <div class="relative h-48 rounded-xl overflow-hidden shadow-md group border border-charcoal-200/80">
+                  <img src="/src/assets/images/community_schools_1779960921371.png" alt="Primary students smiling in built school" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-4">
+                    <span class="text-xs font-bold text-white uppercase tracking-wider">Primary Education & School Infrastructure</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Governance & Stakeholder Engagement (Transparency Segment) -->
+    <section id="governance" class="py-24 bg-white relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          
+          <div class="space-y-8 order-2 lg:order-1">
+            <div class="space-y-3">
+              <span class="text-xs uppercase font-bold tracking-widest text-emerald-700 block">Stakeholder Engagement</span>
+              <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-charcoal-900 leading-tight">
+                Transparent Updates & Responsive Partnerships
+              </h2>
+              <div class="w-16 h-1 bg-gradient-to-r from-emerald-600 to-copper-500 rounded"></div>
+            </div>
+
+            <p class="text-charcoal-600 leading-relaxed font-light text-sm sm:text-base">
+              Amapale Mineral Limited was built to change old mining secrets. Our mission is centered to uplift local citizens through persistent progress logs, local updates, and stakeholder forums.
+            </p>
+
+            <!-- Dynamic Mock Update Stream (Completly Real, detailed Text) -->
+            <div class="space-y-4">
+              <span class="text-[10px] font-mono tracking-widest uppercase text-charcoal-400 block font-bold">Recent Transparency Logs:</span>
+              
+              <!-- Log Row 1 -->
+              <div class="p-4 bg-charcoal-50 border border-charcoal-200/60 rounded-lg flex gap-4">
+                <div class="flex-shrink-0 w-8 h-8 rounded bg-emerald-800 text-white flex items-center justify-center text-xs font-bold font-mono">
+                  01
+                </div>
+                <div>
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="text-xs font-bold text-charcoal-900">Community Forum Concluded</span>
+                    <span class="text-[9px] px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold uppercase">Lusaka</span>
+                  </div>
+                  <p class="text-xs text-charcoal-500 font-light">
+                    Initiated open-enrollment townhall on Plot 12 Burton Road to share our upcoming localized mine-procurement pipeline with resident businesses.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Log Row 2 -->
+              <div class="p-4 bg-charcoal-50 border border-charcoal-200/60 rounded-lg flex gap-4">
+                <div class="flex-shrink-0 w-8 h-8 rounded bg-copper-600 text-white flex items-center justify-center text-xs font-bold font-mono">
+                  02
+                </div>
+                <div>
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="text-xs font-bold text-charcoal-900">First Local Hiring Intake Launched</span>
+                    <span class="text-[9px] px-2 py-0.5 rounded bg-copper-100 text-copper-800 font-bold uppercase">Jobs</span>
+                  </div>
+                  <p class="text-xs text-charcoal-500 font-light">
+                    Successfully boarded the first set of local technical apprentices. Initiated vocational safety and logistics certifications.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Decorative vector layout for trust metrics -->
+          <div class="relative order-1 lg:order-2">
+            <div class="p-8 md:p-12 rounded-2xl bg-gradient-to-br from-charcoal-900 to-emerald-950 text-white relative overflow-hidden shadow-xl">
+              <div class="absolute inset-0 bg-grid-pattern-dark pointer-events-none"></div>
+
+              <div class="relative z-10 space-y-8">
+                <span class="text-xs uppercase font-extrabold tracking-widest text-copper-400 block">Values in Play</span>
+                <h3 class="font-display font-extrabold text-2xl md:text-3xl text-white">Our Promise to Zambian Citizens</h3>
+                
+                <div class="space-y-6">
+                  <!-- Guarantee 1 -->
+                  <div class="flex gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-copper-400">
+                      <i data-lucide="eye" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                      <h4 class="font-bold text-white text-sm">Radical Transparency</h4>
+                      <p class="text-xs text-charcoal-400 font-light mt-1">
+                        All joint venture terms, local investments, and geological reports are accessible to communities and partners.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Guarantee 2 -->
+                  <div class="flex gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-copper-400">
+                      <i data-lucide="award" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                      <h4 class="font-bold text-white text-sm">Regulatory Stewardship</h4>
+                      <p class="text-xs text-charcoal-400 font-light mt-1">
+                        We operate in absolute harmony with the Mines and Minerals Development Act of Zambia under Registered License 120251032883.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Guarantee 3 -->
+                  <div class="flex gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-copper-400">
+                      <i data-lucide="users-round" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                      <h4 class="font-bold text-white text-sm">Shared Gains</h4>
+                      <p class="text-xs text-charcoal-400 font-light mt-1">
+                        If Amapale wins, Zambia wins. We hold local enrichment as our primary baseline metric. No exceptions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Modern Interactive Contact Segment (With feedback Form) -->
+    <section id="contact" class="py-24 bg-charcoal-50 bg-grid-pattern relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+          
+          <!-- Contact Channels Info Card (Left) -->
+          <div class="lg:col-span-5 space-y-8">
+            <div class="space-y-3">
+              <span class="text-xs uppercase font-bold tracking-widest text-emerald-700 block">Get In Touch</span>
+              <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-charcoal-900 tracking-tight leading-none">
+                Let's Build Partnerships Together
+              </h2>
+              <div class="w-16 h-1 bg-gradient-to-r from-emerald-600 to-copper-500 rounded"></div>
+            </div>
+
+            <p class="text-charcoal-600 leading-relaxed font-light text-sm sm:text-base">
+              Whether you are an institutional stakeholder, a local engineering contractor, or a fellow resident of Lusaka looking for job opportunities, we would love to hear from you. Let us build our future together.
+            </p>
+
+            <div class="space-y-6">
+              
+              <!-- Channel 1: Primary Office -->
+              <div class="flex items-start gap-4 p-5 rounded-lg bg-white border border-charcoal-200 shadow-sm">
+                <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-emerald-50 text-emerald-800 flex items-center justify-center">
+                  <i data-lucide="map-pinned" class="w-5 h-5"></i>
+                </div>
+                <div class="text-sm">
+                  <p class="font-bold text-charcoal-900 uppercase tracking-wide text-xs mb-1">Central Head Office</p>
+                  <p class="text-charcoal-600 font-light">
+                    Plot No. 12 William Burton Road,<br>
+                    Chilekwa Mwamba Road, Longacers,<br>
+                    Lusaka, Zambia.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Channel 2: Telephone -->
+              <a href="tel:+14038276328" class="flex items-start gap-4 p-5 rounded-lg bg-white border border-charcoal-200 shadow-sm hover:border-copper-400/80 transition-all duration-300 block group">
+                <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-copper-50 text-copper-700 flex items-center justify-center group-hover:bg-copper-500 group-hover:text-white transition-colors">
+                  <i data-lucide="phone-call" class="w-5 h-5"></i>
+                </div>
+                <div class="text-sm">
+                  <p class="font-bold text-charcoal-900 uppercase tracking-wide text-xs mb-1">Corporate Hotline</p>
+                  <p class="text-charcoal-600 group-hover:text-copper-600 transition-colors font-semibold tracking-wide">+1 (403) 827-6328</p>
+                  <span class="text-[10px] text-charcoal-400 block font-light mt-0.5">Click to call directly (Offline ready)</span>
+                </div>
+              </a>
+
+              <!-- Channel 3: Email -->
+              <a href="mailto:info@amapale.com" class="flex items-start gap-4 p-5 rounded-lg bg-white border border-charcoal-200 shadow-sm hover:border-emerald-600/80 transition-all duration-300 block group">
+                <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-emerald-50 text-emerald-800 flex items-center justify-center group-hover:bg-emerald-800 group-hover:text-white transition-colors">
+                  <i data-lucide="mail-open" class="w-5 h-5"></i>
+                </div>
+                <div class="text-sm">
+                  <p class="font-bold text-charcoal-900 uppercase tracking-wide text-xs mb-1">Executive Inbox</p>
+                  <p class="text-charcoal-600 group-hover:text-emerald-700 transition-colors font-semibold tracking-wide">info@amapale.com</p>
+                  <span class="text-[10px] text-charcoal-400 block font-light mt-0.5">Response target standard: &lt;24 Hours</span>
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- Contact Form (Right) -->
+          <div class="lg:col-span-7 bg-white p-8 md:p-10 rounded-2xl shadow-md border border-charcoal-200/80">
+            <h3 class="font-display font-extrabold text-2xl text-charcoal-900 mb-6">Send an Inquiry Reference</h3>
+            
+            <form id="contactForm" onsubmit="handleContactSubmit(event)" class="space-y-6">
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <!-- Name -->
+                <div class="space-y-1.5">
+                  <label for="fullName" class="text-xs font-bold uppercase tracking-wider text-charcoal-500">Full Name</label>
+                  <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-charcoal-400 pointer-events-none">
+                      <i data-lucide="user" class="w-4 h-4"></i>
+                    </span>
+                    <input type="text" id="fullName" required placeholder="John Bwalya" class="w-full pl-10 pr-4 py-3 bg-charcoal-50 text-sm border border-charcoal-200 rounded-md focus:ring-2 focus:ring-emerald-700/20 focus:border-emerald-700 focus:bg-white transition-all outline-none">
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="space-y-1.5">
+                  <label for="emailAddr" class="text-xs font-bold uppercase tracking-wider text-charcoal-500">Email Address</label>
+                  <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-charcoal-400 pointer-events-none">
+                      <i data-lucide="at-sign" class="w-4 h-4"></i>
+                    </span>
+                    <input type="email" id="emailAddr" required placeholder="john@example.com" class="w-full pl-10 pr-4 py-3 bg-charcoal-50 text-sm border border-charcoal-200 rounded-md focus:ring-2 focus:ring-emerald-700/20 focus:border-emerald-700 focus:bg-white transition-all outline-none">
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <!-- Category -->
+                <div class="space-y-1.5">
+                  <label for="interestCategory" class="text-xs font-bold uppercase tracking-wider text-charcoal-500">Inquiry Classification</label>
+                  <select id="interestCategory" class="w-full px-4 py-3 bg-charcoal-50 text-sm border border-charcoal-200 rounded-md focus:ring-2 focus:ring-emerald-700/20 focus:border-emerald-700 focus:bg-white transition-all outline-none">
+                    <option value="job">Employment & Training</option>
+                    <option value="stakeholder">Investor & Stakeholder Operations</option>
+                    <option value="community">Community Reinvestment Proposal</option>
+                    <option value="contractor">Local Supplier / Contractor Options</option>
+                    <option value="other">General Corporate Matter</option>
+                  </select>
+                </div>
+
+                <!-- Phone -->
+                <div class="space-y-1.5">
+                  <label for="phoneNum" class="text-xs font-bold uppercase tracking-wider text-charcoal-500">Phone (Optional)</label>
+                  <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-charcoal-400 pointer-events-none">
+                      <i data-lucide="phone" class="w-4 h-4"></i>
+                    </span>
+                    <input type="tel" id="phoneNum" placeholder="+260 76..." class="w-full pl-10 pr-4 py-3 bg-charcoal-50 text-sm border border-charcoal-200 rounded-md focus:ring-2 focus:ring-emerald-700/20 focus:border-emerald-700 focus:bg-white transition-all outline-none">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Content Message -->
+              <div class="space-y-1.5">
+                <label for="msgVal" class="text-xs font-bold uppercase tracking-wider text-charcoal-500">Message Content</label>
+                <textarea id="msgVal" required rows="4" placeholder="How can Amapale Mineral Limited partner with you to add value or create opportunity?" class="w-full px-4 py-3 bg-charcoal-50 text-sm border border-charcoal-200 rounded-md focus:ring-2 focus:ring-emerald-700/20 focus:border-emerald-700 focus:bg-white transition-all outline-none resize-none"></textarea>
+              </div>
+
+              <!-- Terms click check -->
+              <div class="flex items-start gap-2">
+                <input type="checkbox" id="termsAccepted" required class="mt-1 accent-emerald-800">
+                <label for="termsAccepted" class="text-[11px] font-light text-charcoal-500">
+                  I agree to share this feedback with Amapale Mineral Limited. I understand they will store this information strictly under their responsive stakeholder registry protocols.
+                </label>
+              </div>
+
+              <!-- Submission Button -->
+              <button type="submit" class="w-full inline-flex items-center justify-center gap-2 px-8 py-4 rounded-md bg-emerald-800 hover:bg-copper-600 text-white font-bold uppercase text-xs tracking-widest shadow-md hover:shadow-lg transition-all duration-300">
+                <span>Dispatch Inquiry</span>
+                <i data-lucide="send" class="w-4 h-4"></i>
+              </button>
+
+              <!-- State Prompt Result Feedback -->
+              <div id="formStatus" class="hidden p-4 rounded-md text-sm font-semibold transition-all duration-300"></div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Professional Footer -->
+    <footer class="bg-charcoal-900 text-white pt-20 pb-10 bg-grid-pattern-dark border-t border-charcoal-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-16 border-b border-charcoal-800">
+          
+          <!-- Column 1: Info & Tagline -->
+          <div class="lg:col-span-5 space-y-6">
+            <a href="#hero" class="flex items-center gap-3">
+              <div class="relative flex items-center justify-center w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-600 to-copper-500 shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3L2 17h10l3-5 5 5H12z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3l10 14H12" opacity="0.4" />
+                </svg>
+              </div>
+              <div class="flex flex-col">
+                <span class="font-display font-medium text-xl uppercase tracking-wider text-white">AMAPALE</span>
+                <span class="text-[10px] uppercase font-bold tracking-widest text-emerald-400">MINERAL LIMITED</span>
+              </div>
+            </a>
+
+            <p class="text-charcoal-400 text-sm font-light leading-relaxed max-w-sm">
+              An authentic Zambian corporate partnership established to responsibly use local minerals while creating long-term, sustainable livelihoods and positive community impact.
+            </p>
+
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-charcoal-800 border border-charcoal-750 text-copper-300 text-[11px] font-bold uppercase tracking-widest rounded">
+              <span class="inline-block w-2-h-2"></span>
+              <span>Your Community Partner</span>
+            </div>
+          </div>
+
+          <!-- Column 2: Legal Integrity info -->
+          <div class="lg:col-span-4 space-y-4">
+            <h4 class="font-display font-bold uppercase tracking-wider text-white text-xs">Registry & Regulation</h4>
+            <div class="space-y-2 text-xs text-charcoal-400 leading-relaxed font-light">
+              <p>
+                <strong class="text-charcoal-300">Registered Office:</strong><br>
+                Plot No. 12 William Burton Road,<br>
+                Chilekwa Mwamba Road, Longacers, Lusaka, Zambia.
+              </p>
+              <p>
+                <strong class="text-charcoal-300">Company Reg No:</strong><br>
+                120251032883
+              </p>
+              <p>
+                <strong class="text-charcoal-300">Incorporation Date:</strong><br>
+                October 23, 2025
+              </p>
+            </div>
+          </div>
+
+          <!-- Column 3: Site Maps -->
+          <div class="lg:col-span-3 space-y-4">
+            <h4 class="font-display font-bold uppercase tracking-wider text-white text-xs">Quick Navigation</h4>
+            <ul class="space-y-2 text-xs">
+              <li>
+                <a href="#about" class="text-charcoal-400 hover:text-emerald-400 transition-colors">About Amapale</a>
+              </li>
+              <li>
+                <a href="#mission" class="text-charcoal-400 hover:text-emerald-400 transition-colors">The Creed & Mission</a>
+              </li>
+              <li>
+                <a href="#sustainability" class="text-charcoal-400 hover:text-emerald-400 transition-colors">Pillars of Impact</a>
+              </li>
+              <li>
+                <a href="#governance" class="text-charcoal-400 hover:text-emerald-400 transition-colors">Transparency Logs</a>
+              </li>
+              <li>
+                <a href="#contact" class="text-charcoal-400 hover:text-emerald-400 transition-colors">Contact Partner</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Copyright banner -->
+        <div class="pt-10 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-charcoal-500 font-light text-center sm:text-left">
+          <div class="space-y-1">
+            <p>© 2025 by Vigorish Media Building Brands That Add Value.</p>
+            <p class="text-[10px] text-charcoal-600">Amapale Mineral Limited COMPANY REG NO# 120251032883. All rights reserved.</p>
+          </div>
+          <div>
+            <button onclick="scrollToTop()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-charcoal-800 hover:bg-emerald-800 text-charcoal-300 hover:text-white transition-all text-[11px] font-bold uppercase tracking-wider">
+              <span>Back To Top</span>
+              <i data-lucide="chevrons-up" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- Interactive JavaScript Actions (Vanilla & Self-contained) -->
+    <script>
+      // Initialize Lucide Icons on raw load
+      lucide.createIcons();
+
+      // Mobile Menu Actions
+      const menuBtn = document.getElementById('mobileMenuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+      if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+
+        // Auto Close Mobile Menu when links are clicked
+        mobileNavLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+          });
+        });
+      }
+
+      // Main Pillar Tab Actions
+      function switchMainTab(tabIndex) {
+        // Reset all buttons
+        const btn1 = document.getElementById('tabButton1');
+        const btn2 = document.getElementById('tabButton2');
+        const btn3 = document.getElementById('tabButton3');
+        
+        const pan1 = document.getElementById('tabPanel1');
+        const pan2 = document.getElementById('tabPanel2');
+        const pan3 = document.getElementById('tabPanel3');
+
+        // Demote all
+        [btn1, btn2, btn3].forEach(btn => {
+          if (btn) {
+            btn.className = "tab-btn px-4 sm:px-6 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all duration-300 whitespace-nowrap text-charcoal-600 hover:text-charcoal-900 hover:bg-charcoal-50";
+          }
+        });
+
+        [pan1, pan2, pan3].forEach(pan => {
+          if (pan) {
+            pan.classList.add('hidden');
+            pan.classList.remove('block');
+            pan.className = "tab-panel transition-all duration-300 opacity-0 hidden";
+          }
+        });
+
+        // Promote Target
+        const targetBtn = document.getElementById(`tabButton${tabIndex}`);
+        const targetPan = document.getElementById(`tabPanel${tabIndex}`);
+
+        if (targetBtn && targetPan) {
+          targetBtn.className = "tab-btn px-4 sm:px-6 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all duration-300 whitespace-nowrap bg-emerald-800 text-white shadow";
+          
+          targetPan.classList.remove('hidden');
+          targetPan.classList.add('block');
+          // Add smooth transition effect
+          setTimeout(() => {
+            targetPan.className = "tab-panel transition-all duration-300 opacity-100 block";
+          }, 50);
+        }
+      }
+
+      // Form Handling
+      function handleContactSubmit(event) {
+        event.preventDefault();
+        
+        const formStatus = document.getElementById('formStatus');
+        const btn = event.target.querySelector('button[type="submit"]');
+        const nameVal = document.getElementById('fullName').value;
+        const catVal = document.getElementById('interestCategory');
+        const catText = catVal.options[catVal.selectedIndex].text;
+
+        if (formStatus && btn) {
+          btn.style.opacity = "0.7";
+          btn.disabled = true;
+          btn.innerHTML = `<span>Processing Transmission...</span>`;
+
+          // Simulate real offline response safely
+          setTimeout(() => {
+            btn.style.opacity = "1";
+            btn.disabled = false;
+            btn.innerHTML = `<span>Dispatch Inquiry</span> <i data-lucide="send" class="w-4 h-4"></i>`;
+            lucide.createIcons();
+
+            // Clear inputs
+            event.target.reset();
+
+            // Success feedback
+            formStatus.className = "p-4 rounded-md text-sm font-semibold transition-all duration-300 bg-emerald-50 text-emerald-800 border-l-4 border-emerald-700 block";
+            formStatus.innerHTML = `
+              <div class="flex items-start gap-2">
+                <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"></i>
+                <div>
+                  <p class="font-bold">Transmission Dispatched Successfully!</p>
+                  <p class="text-xs font-light mt-0.5">Hello ${nameVal}, your Amapale partnership inquiry regarding "${catText}" has been logged into our community stakeholder register. A representative in Lusaka, Zambia will update you shortly.</p>
+                </div>
+              </div>
+            `;
+            lucide.createIcons();
+
+            // Hide success message after 10s
+            setTimeout(() => {
+              formStatus.className = "hidden";
+            }, 10000);
+
+          }, 1200);
+        }
+      }
+
+      // Scroll to Top util
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    </script>
+  </body>
+</html>

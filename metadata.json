@@ -1,0 +1,6 @@
+{
+  "name": "Amapale Mineral",
+  "description": "Corporate website for Amapale Mineral Limited, committed to sustainable resource development and job creation in Lusaka, Zambia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
